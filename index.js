@@ -25,6 +25,7 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
+<<<<<<< HEAD
   var kittensP = [name, ...kittens]
   return kittensP
   
@@ -40,3 +41,12 @@ function removeLastKitten() {
 function removeFirstKitten() {
   return kittens.slice(1)
 }
+=======
+  return kittens.splice(0,0,name)
+}
+
+
+
+//  var kittensP = [name, ...kittens]
+//  return kittensP
+>>>>>>> b6c3258fbcb137127a63facc76a1eb39e9a49cbf
